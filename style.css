@@ -1,0 +1,158 @@
+.body{
+    font-family: ;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.left-header{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.right-header{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.hero-div{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    width: 50%;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+
+.title-s1{
+    display: flex;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border: 2px;
+    border-color: #666;
+    border-style: ridge;
+}
+
+.title-s2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.hero-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+.kits{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+  .kit {
+    max-width: 300px;
+  }
+
+  .text{
+  }
+
+  .hero-quote{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #e5e7eb;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #1F2937;
+  }
+
+  .quote-text{
+    display: flex;
+    width: auto;
+    text-align: center;
+    width: 1000px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .quote-by{
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .hero-signup{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+.hero-signup-box{
+    display: flex;
+    flex-direction: ;
+    color: #666;
+    background-color: #1F2937;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    align-items: center;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.hero-signup-button{
+    display: flex;
+}
+
+.hero-footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
